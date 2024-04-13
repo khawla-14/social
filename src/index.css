@@ -16,5 +16,39 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: #f7f6f3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.secondary_btn {
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 2px black bold;
+  outline: none;
+  transition: all .3s ease-in-out;
+  font-size: 15px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+.secondary_btn:hover {
+  background-color: black;
+
+  a {
+    color: white;
+  }
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  /* font-size: 35px; */
+  font-weight: 600;
 }

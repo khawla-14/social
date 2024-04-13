@@ -31,7 +31,7 @@ nav ul li {
     font-size: 18px;
 }
 
-button {
+nav button {
     color: #f7f6f3;
     background-color: var(--black);
     border: none;
@@ -41,7 +41,7 @@ button a {
     margin: 10px;
 }
 
-button:hover {
+nav button:hover {
     opacity: 80%;
 }
 
